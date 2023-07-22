@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@font-face {
+  font-family: "huno";
+  src: url("../fuente/Viory.ttf") format("truetype");
+}
+@media (min-width:575px) {
+  body {
+    background-color: #FCF3CF ;
+  }
+}
+@media (max-width:575px) {
+  body {
+    background-color: #F6DDCC ;
+  }
+  header {
+    margin-top: 15%
+  }
+}
+@media (min-width:576px){
+   .torta {
+     display: none;
+   }
+}
+
+@media (max-width: 576px) {
+  .tortila {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    background-color: #F6DDCC ;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    background-color: #FCF3CF ;
+  }
+}
+
+
+
+h1 {
+  font-family: 'Bree Serif', serif;
+}
+h2 {
+  color: #C0392B ;
+  font-family:"huno";
+  font-size: 3vw
+}
+h3{
+  color: #C0392B ;
+  font-family: 'Teko', sans-serif;
+}
+li {
+  font-family: 'Share Tech Mono', monospace;
+  color: #EC7063 ;
+}
+a img:hover {
+  background-color: #EC7063 ;
+}
+
+
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+.container-fuid {
+  top: 0 ;
+  padding: 0 0 ;
+  width: 100%;
+  height: 4rem;
+  background-color: #922B21;
+}
+.cuentas img {
+  display: flex;
+  flex-direction: column;
+  height: 27% ;
+  margin: 20% 0 0 -50% ;
+}
+nav h1 {
+   font-size: 2em;
+   font-style: italic;
+   text-decoration: underline;
+   color: #EC7063 ;
+}
+.logo {
+  height: 100%
+}
+.noct img {
+  width: 1rem
+}
+nav button {
+  background-color: #922B21 ;
+  border: none ;
+}
+.botones {
+  display: flex;
+}
+
+
+
+header div {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5% ;
+}
+header h1 {
+  text-align: center;
+  margin-top: 3% ;
+  margin-bottom: 0 ;
+  color: #922B21 ;
+  font-weight:bold;
+  font-size: 4vw ;
+}
+
+
+
+section {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5% ;
+}
+
+
+.receta {
+  margin-bottom: 0 ;
+  text-decoration: underline;
+}
+.papa iframe {
+  width: 100% ;
+  height: 45vw ;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+section {
+
+}
+.lado {
+  font-size: 1.5rem ;
+  display: flex;
+  justify-content: flex-start;
+  float: left;
+}
+.ing {
+  margin-left: 45%
+}
+.row {
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: % ;
+  background-color: #922B21;
+}
+footer iframe {
+  width: 14rem ;
+  height: 14rem ;
+}
+footer ul li {
+  color: #EC7063 ;
+  margin-top: 15% ;
+  margin-right: 5% ;
+  list-style: none;
+}
+.sclass {
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+footer li a {
+  color: #EC7063 ;
+  text-decoration: none;
+}
+footer a:hover {
+
+}
+.cuentas2 img {
+  width: 3rem ;
+  margin: 4rem 0.5rem
+}
+.carousel {
+  width: 30% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.autor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 100px ;
+}
